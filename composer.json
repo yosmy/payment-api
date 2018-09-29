@@ -1,0 +1,25 @@
+{
+    "name": "yosmy/payment-api",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/stripe": "@dev",
+        "yosmy/owner-stripe": "@dev",
+        "yosmy/owner-log": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Payment\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
